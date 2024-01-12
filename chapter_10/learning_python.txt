@@ -1,0 +1,5 @@
+In Python, you can import the pathlib module.
+Then, you can use the Path class to:
+    Open a text file
+    Read the contents
+Python is a dynamically typed language that has much functionality.
