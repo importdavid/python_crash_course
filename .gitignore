@@ -1,1 +1,5 @@
-/pcc_3e
+# Ignore Python Crash Course solutions folder
+pcc_3e/
+
+# Ignore Python venv directories
+venv/
