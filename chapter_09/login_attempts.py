@@ -25,7 +25,7 @@ class User:
 
 
 if __name__ == "__main__":
-    user = User('David', 'Wilkins', 'wilkdawilk', 'wilkidav@gmail.com')
+    user = User('David', 'Wilkins', 'www', 'email@email.com')
     user.greet()
     user.describe()
 

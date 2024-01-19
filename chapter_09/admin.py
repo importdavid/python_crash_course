@@ -22,6 +22,6 @@ class Admin(User):
 
 
 if __name__ == '__main__':
-    a = Admin('David', 'Wilkins', 'dwilk', 'wilkidav@gmail.com')
+    a = Admin('David', 'Wilkins', 'www', 'email@email.com')
     a.describe()
     a.privileges.show_privileges()
