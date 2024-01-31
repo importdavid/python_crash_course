@@ -12,11 +12,11 @@ class Button:
         self.width, self.height = 200, 50
         self.button_color = (0, 135, 0)
         self.text_color = (255, 255, 255)
-        # self.font = pygame.font.SysFont(None, 48)
+        self.font = pygame.font.SysFont(None, 48)
 
         # If running in WSL on Windows, otherwise uncomment previous line
-        font_path = '/mnt/c/Windows/Fonts/tahoma.ttf'
-        self.font = pygame.font.Font(font_path, 36)
+        # font_path = '/mnt/c/Windows/Fonts/tahoma.ttf'
+        # self.font = pygame.font.Font(font_path, 36)
 
         # Build the button's rect object and center it.
         self.rect = pygame.Rect(0, 0, self.width, self.height)
