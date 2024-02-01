@@ -15,7 +15,11 @@ class Scoreboard:
 
         # Font settings for scoring information.
         self.text_color = (30, 30, 30)
-        self.font = pygame.font.SysFont(None, 48)
+        # self.font = pygame.font.SysFont(None, 48)
+
+        # If running in WSL on Windows, otherwise uncomment previous line
+        font_path = '/mnt/c/Windows/Fonts/tahoma.ttf'
+        self.font = pygame.font.Font(font_path, 36)
 
         # Prepare the initial score images.
         self.prep_score()
